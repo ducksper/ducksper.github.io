@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../font/montserrat.woff2') format('woff2');
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: auto 300px 200px 200px 10px 300px 10px 300px 10px 300px 200px auto;
+}
+
+.logo_chesscom {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.logo_chessfoundry {
+    grid-column: 6;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    grid-row: 1;
+}
+
+.avatar_ka {
+    grid-column: 8;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    grid-row: 1;
+}
+
+.list_p_chessfoundry {
+    border-radius: 5px;
+    grid-column: 6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list_p_maurizio {
+    border-radius: 5px;
+    grid-column: 8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list_p_chess {
+    border-radius: 5px;
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list_p_ka {
+    border-radius: 5px;
+    grid-column: 8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list_b1_chess {
+    border-radius: 5px;
+    grid-column: 3;
+}
+
+.list_b2_chess {
+    border-radius: 5px;
+    grid-column: 4;
+}
+
+.list_p_others {
+    border-radius: 5px;
+    grid-column: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list_b_others {
+    border-radius: 5px;
+    grid-column: 11;
+}
+
+.others_title {
+    font-size: 3em;
+    grid-column-start: 10;
+    grid-column-end: 12;
+    grid-row: 1;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.maurizio_title {
+    font-size: 3em;
+    grid-column-start: 8;
+    grid-column-end: 10;
+    grid-row: 1;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.board_flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.board_img {
+    width: 150px;
+}
+
+.piece_url {
+    width: 50px;
+}
+
+.style_p {
+    background: #a88865;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.style_b {
+    background: #a88865;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    min-width: 150px;
+}
+
+.num {
+    color: #e9eacf;
+    font-size: 1.5em
+}
+
+.name {
+    font-size: 1.9em;
+    color: #e9eacf;
+}
+
+.h_pre {
+    text-align: center;
+}
+
+.images {
+    text-align: center;
+}
